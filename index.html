@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>learning tailwind</title>
+  </head>
+  <body>
+    <nav style="color: white" class="bg-black">
+      <button
+        class="border border-blue-500 text-blue-500 bg-slate-300 hover:bg-blue-500 hover:text-white py-2 px-2 rounded">
+        HOME</button
+      ><span>
+        <marquee direction="right"> We are Tailwind </marquee>
+      </span>
+    </nav>
+    <div style="margin-top: 10px" align="center">
+      <button class="border text-neutral-50 bg-sky-700 py-2 px-2 rounded">
+        First
+      </button>
+      <button class="border text-neutral-50 bg-neutral-400 py-2 px-2 rounded">
+        Second
+      </button>
+      <button class="border text-neutral-50 bg-green-700 py-2 px-2 rounded">
+        Third
+      </button>
+      <button class="border text-neutral-50 bg-red-600 py-2 px-2 rounded">
+        Second
+      </button>
+      <button class="border text-neutral-50 bg-neutral-950 py-2 px-2 rounded">
+        Third
+      </button>
+    </div>
+    <br /><br />
+    <div class="flex">
+      <div class="w-1/4 bg-yellow-400 p-4" style="color: white">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias at
+        dolor perferendis asperiores ipsam, animi incidunt modi? Sunt ut id
+        delectus, deleniti voluptate ipsam, dolore reiciendis vero repellendus
+        rem veritatis!
+      </div>
+      <div class="w-1/4 bg-sky-700 p-4" style="color: white">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit vitae
+        necessitatibus perferendis. Dignissimos commodi, hic aliquid molestias
+        dolore iure adipisci repudiandae assumenda quam iusto, dicta debitis.
+        Optio saepe ullam ut?
+      </div>
+      <div class="w-1/4 bg-green-700 p-4" style="color: white">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
+        perferendis magni voluptas provident molestiae hic tempore doloribus
+        porro. Qui fuga obcaecati quis. Numquam repellat rerum voluptatibus unde
+        voluptatem culpa veniam.
+      </div>
+      <div class="w-1/4 bg-neutral-950 p-4" style="color: white">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
+        perferendis magni voluptas provident molestiae hic tempore doloribus
+        porro. Qui fuga obcaecati quis. Numquam repellat rerum voluptatibus unde
+        voluptatem culpa veniam.
+      </div>
+    </div>
+    <div class="flex">
+      <div class="w-8/12" align="center">
+        <table class="border-spacing-2 w-full table-auto">
+          <thead>
+            <tr class="bg-black text-white">
+              <th class="py-2 px-4">Item</th>
+              <th class="py-2 px-4">Category</th>
+              <th class="py-2 px-4">Color</th>
+              <th class="py-2 px-4">consectetur</th>
+              <th class="py-2 px-4">wahala</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="hover:bg-gray-100 transition-all">
+              <td class="py-2 px-4">Samsung</td>
+              <td class="py-2 px-4">Nokia</td>
+              <td class="py-2 px-4">Iphone</td>
+              <td class="py-2 px-4">Htc</td>
+              <td class="py-2 px-4">Gionee</td>
+            </tr>
+            <tr class="hover:bg-gray-100 transition-all">
+              <td class="py-2 px-4">galaxy</td>
+              <td class="py-2 px-4">android</td>
+              <td class="py-2 px-4">IOS</td>
+              <td class="py-2 px-4">ANDROID</td>
+              <td class="py-2 px-4">KIL</td>
+            </tr>
+            <tr class="hover:bg-gray-100 transition-all">
+              <td class="py-2 px-4">GALAXY</td>
+              <td class="py-2 px-4">android</td>
+              <td class="py-2 px-4">IOS</td>
+              <td class="py-2 px-4">android</td>
+              <td class="py-2 px-4">SMILING</td>
+            </tr>
+            <tr
+              class="bg-orange-500 text-white hover:bg-gray-100 transition-all">
+              <td class="py-2 px-4">GALAXY</td>
+              <td class="py-2 px-4">ANDROID</td>
+              <td class="py-2 px-4">iOS</td>
+              <td class="py-2 px-4">SOL</td>
+              <td class="py-2 px-4">DHYWU</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="w-4/12 bg-neutral-900 p-4">
+        <form class="form-group flex items-center">
+          <input
+            class="form-input py-2 px-3 w-full rounded"
+            type="text"
+            placeholder="Search Item"
+            name="" />
+          <button
+            class="ml-2 border text-neutral-50 bg-green-700 py-2 px-4 rounded transition duration-300 hover:bg-green-600">
+            SEARCH
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <div class="flex bg-neutral-900">
+      <div class="w-4/12 p-4">
+        <div class="bg-white p-6 rounded-md shadow-md">
+          <img
+            src="images/2023-09-03 (4).png"
+            alt="Image1"
+            class="h-40 w-full object-cover" />
+        </div>
+      </div>
+      <div class="w-4/12 p-4">
+        <div class="bg-white p-6 rounded-md shadow-md">
+          <img
+            src="images/2023-09-03 (2).png"
+            alt="Image1"
+            class="h-40 w-full object-cover" />
+        </div>
+      </div>
+      <div class="w-4/12 p-4">
+        <div class="bg-white p-6 rounded-md shadow-md">
+          <img
+            src="images/2023-09-03 (3).png"
+            alt="Image1"
+            class="h-40 w-full object-cover" />
+        </div>
+      </div>
+    </div>
+    <footer class="bg-neutral-100 p-4">' '</footer>
+  </body>
+</html>
